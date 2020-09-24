@@ -1,1 +1,1 @@
-web:gunicorn employeemanagement.wsgi
+web: gunicorn employeemanagement.wsgi
