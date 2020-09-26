@@ -9,11 +9,11 @@ class ActivityPeriodsSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
-    activity_periods=ActivityPeriodsSerializer(many=True)
+    activity_periods=ActivityPeriodsSerializer(many=True,read_only=True)
     class Meta:
         model=User
         fields=('_id','real_name','tz','activity_periods')
-        # depth=1
+        depth=1
         
 
 

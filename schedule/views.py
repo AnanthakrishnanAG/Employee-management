@@ -10,7 +10,8 @@ from rest_framework import viewsets
 class EmpView(viewsets.ModelViewSet):
     queryset=User.objects.all()
     serializer_class=UserSerializer
- 
+
+    
 
 #view for the activity period list
 class ActivityPeriodView(viewsets.ModelViewSet):
