@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['myemployapp.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'schedule',
     'django.contrib.admin',
     'django.contrib.auth',
