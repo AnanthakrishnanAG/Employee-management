@@ -10,6 +10,7 @@ router.register('periods',views.ActivityPeriodView, basename='periods')
 
 
 urlpatterns=[
+    
     path('',include(router.urls)),
   
 ]
